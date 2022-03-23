@@ -1,3 +1,4 @@
+# the following code was created in the first lesson
 import random
 
 random_choice = random.randint(0, 2)
@@ -12,3 +13,4 @@ else:
 
 user_choise = input('rock, paper, or scissors? ')
 print('You chose', user_choise, 'and the computer chose', computer_choice)
+# the following code was created after a break
