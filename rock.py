@@ -15,7 +15,9 @@ else:
     computer_choice = 'scissors'
 
 # Here an imput is created to ask the user for their choice
-user_choice = input('rock, paper, or scissors? ')
+user_choice = ''
+while (user_choice != 'rock' and user_choice != 'paper' and user_choice != 'scissors'):
+    user_choice = input('rock, paper, or scissors? ')
 
 # Here is the logic of the game, where the computer checks to see if the computer won
 # and makes the proper change to the winner variable
